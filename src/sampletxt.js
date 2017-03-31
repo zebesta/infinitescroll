@@ -1,0 +1,5 @@
+const sampletext = [{"title":"Sample 1","text":"Sample 1Sample 1Sample 1Sample 1Sample 1Sample 1Sample 1Sample 1Sample 1Sample 1"},{"title":"Sample 2","text":"Sample 2Sample 2Sample 2Sample 2Sample 2Sample 2Sample 2Sample 2Sample 2Sample 2"},{"title":"Sample 3","text":"Sample 3Sample 3Sample 3Sample 3Sample 3Sample 3Sample 3Sample 3Sample 3Sample 3"},{"title":"Sample 4","text":"Sample 4Sample 4Sample 4Sample 4Sample 4Sample 4Sample 4Sample 4Sample 4Sample 4"},{"title":"Sample 5","text":"Sample 5Sample 5Sample 5Sample 5Sample 5Sample 5Sample 5Sample 5Sample 5Sample 5"},{"title":"Sample 6","text":"Sample 6Sample 6Sample 6Sample 6Sample 6Sample 6Sample 6Sample 6Sample 6Sample 6"},{"title":"Sample 7","text":"Sample 7Sample 7Sample 7Sample 7Sample 7Sample 7Sample 7Sample 7Sample 7Sample 7"},{"title":"Sample 8","text":"Sample 8Sample 8Sample 8Sample 8Sample 8Sample 8Sample 8Sample 8Sample 8Sample 8"},{"title":"Sample 9","text":"Sample 9Sample 9Sample 9Sample 9Sample 9Sample 9Sample 9Sample 9Sample 9Sample 9"},{"title":"Sample 10","text":"Sample 10Sample 10Sample 10Sample 10Sample 10Sample 10Sample 10Sample 10Sample 10Sample 10"}]
+
+module.exports = {
+  sampletext
+}
