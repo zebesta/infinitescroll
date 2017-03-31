@@ -1,22 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
-export const TextComp = () => (
+export const TextComp = ({title="Sample 0", text="Sample 0 Sample 0"}) => (
   <div className="TextComp">
     <p>
       This is the text Component
     </p>
+    <h1>{title}</h1>
+    <span>{text}</span>
   </div>
 )
-// class TextComp extends Component {
-//   render() {
-//     return (
-//       <div className="TextComp">
-//         <p>
-//           This is the text Component
-//         </p>
-//       </div>
-//     );
-//   }
-// }
 
-// export default TextComp;
+
+TextComp.propTypes = {
+  title: PropTypes.string,
+  text: PropTypes.string
+}
